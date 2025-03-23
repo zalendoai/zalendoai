@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #007bff, #00ddeb);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.cta-btn {
+  background: #ffcc00;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.features {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works {
+  background: #eef4ff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.steps {
+  margin: 2rem 0;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.step span {
+  background: #007bff;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.pricing {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.pricing-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #00ddeb, #007bff);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.store-links {
+  margin-top: 1rem;
+}
+
+.store-btn img {
+  width: 120px;
+  margin: 0.5rem;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .hero-content h1 {
+      font-size: 3rem;
+  }
+}

@@ -9,7 +9,7 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'stylesheet.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
@@ -401,6 +401,6 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'app.js' | relative_url }}"></script>
 </body>
 </html>

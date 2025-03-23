@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+    <!-- Additional Meta Tags -->
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="keywords" content="mkuufunzi, homework help, AI tutor, Kenyan students, CBC, KCSE">
+    <meta name="author" content="ZalendoAI">
+    <!-- CSS and External Libraries -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    {{ content }}
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

@@ -2,13 +2,14 @@
 layout: default
 title: mkuufunzi Homework - Your Personal Homework Einstein!
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ 'stylesheet.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
@@ -294,7 +295,7 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
                         <p>mkuufunzi is specifically designed for Kenyan students and follows CBC, KCSE, and local university curricula. We offer M-PESA payment and affordable pricing tailored to local needs.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="faq-question">
                         <h3>Will using mkuufunzi help me learn or just give me answers?</h3>
                         <span class="faq-toggle">+</span>
@@ -303,7 +304,7 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
                         <p>mkuufunzi focuses on learning, not just answers. We provide step-by-step explanations that help you understand concepts, not just memorize solutions.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="faq-question">
                         <h3>Do I need internet to use mkuufunzi?</h3>
                         <span class="faq-toggle">+</span>
@@ -312,7 +313,7 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
                         <p>Yes, you need an internet connection to use mkuufunzi. We've optimized the app to use minimal data, but it does require connectivity to provide answers.</p>
                     </div>
                 </div>
-                <div class="faq-item" data-aos="fade-up">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="faq-question">
                         <h3>Can I use mkuufunzi for KCSE revision?</h3>
                         <span class="faq-toggle">+</span>
@@ -393,7 +394,7 @@ title: mkuufunzi Homework - Your Personal Homework Einstein!
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 ZalendoAI. All rights reserved.</p>
+                <p>© 2025 ZalendoAI. All rights reserved.</p>
             </div>
         </div>
     </footer>

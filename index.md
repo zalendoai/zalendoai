@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="8J9NKuy5uOVnfsc6yP5sD7kkfU-w2orkxCu_YQBIses" />
     <title>mkuufunzi Homework - Your Personal Homework Einstein!</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">

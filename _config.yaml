@@ -1,1 +1,7 @@
-
+title: mkuufunzi Homework - Your Personal Homework Einstein!
+description: Finish your CBC, high school, or uni assignments in minutes with mkuufunzi - Kenya's affordable AI tutor!
+url: "https://your-site.com"  # Replace with your domain
+baseurl: ""
+include:
+  - assets
+google_site_verification: "8J9NKuy5uOVnfsc6yP5sD7kkfU-w2orkxCu_YQBIses"  # For Google Search Console
